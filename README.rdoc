@@ -1,0 +1,20 @@
+Urbanspoon Scraper v0.1 (WIP)
+
+
+Team Members: Ali Naqi, Noshin Nisa
+
+
+Requirements
+
+	sudo pip install Scrapy
+
+Run Script
+	
+	scrapy crawl top -o items.csv -t csv
+
+
+
+---------------------------------------------------------------------------
+
+v0.1 - scrapes most popular dishes from one restaurant URL.
+       URL can be replaced under /spiders/dishes.py for any restaurant
